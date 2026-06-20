@@ -1,0 +1,37 @@
+:root {
+  --main-background: #fefaef;
+  --heading-color: #000000;
+  --sub-text-color: #777777;
+  --yellow-color: #fcc26b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding-inline: 160px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 16px;
+  background-color: var(--yellow-color);
+  border-radius: 24px;
+  color: var(--heading-color);
+  font-size: 18px;
+}
