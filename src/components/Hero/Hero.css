@@ -1,0 +1,41 @@
+.hero {
+  padding: 100px 0 32px 0;
+}
+.hero h1 {
+  font-family: "Bayon", sans-serif;
+  font-size: 110px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+}
+.top-hero {
+  display: grid;
+  grid-template-columns: 1fr 5.5fr 1fr;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.middle-hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+}
+
+.middle-hero div {
+  text-align: center;
+}
+
+.middle-hero p {
+  max-width: 545px;
+  margin: 0 auto;
+}
+
+.btn-book-call {
+  display: inline-block;
+  margin-top: 24px;
+}
+
+img {
+  width: 100%;
+}
