@@ -20,8 +20,9 @@ body {
 
 .container {
   padding-inline: 160px;
-  /* max-width: 1120px;
-  margin: 0 auto; */
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 a {
@@ -49,7 +50,6 @@ p {
   color: var(--heading-color);
   font-size: 18px;
   font-weight: 600;
-  display: inline-block;
 }
 
 img {

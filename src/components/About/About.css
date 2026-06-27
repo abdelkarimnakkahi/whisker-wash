@@ -3,6 +3,7 @@
 }
 .about .container {
   display: flex;
+  align-items: center;
   gap: 32px;
 }
 
@@ -15,13 +16,17 @@
 }
 
 .about-content h2 {
-  font-size: 70px;
+  font-size: 65px;
   font-weight: normal;
   text-transform: uppercase;
 }
 
 .about-content > p {
   margin: 12px 0 24px 0;
+}
+
+.about .btn {
+  display: inline-block;
 }
 
 .stats-wrapper {
