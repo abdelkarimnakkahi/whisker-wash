@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar/NavBar";
 import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <About />
       </main>
     </div>
   );

@@ -1,0 +1,46 @@
+.about {
+  padding: 100px 0;
+}
+.about .container {
+  display: flex;
+  gap: 32px;
+}
+
+.about-image {
+  flex: 2;
+}
+
+.about-content {
+  flex: 3;
+}
+
+.about-content h2 {
+  font-size: 70px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.about-content > p {
+  margin: 12px 0 24px 0;
+}
+
+.stats-wrapper {
+  display: flex;
+  gap: 32px;
+  margin-top: 56px;
+}
+
+.stat-item {
+  width: 100%;
+}
+
+.stat-item h3 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.stat-item p {
+  font-size: 22px;
+  color: var(--heading-color);
+  font-family: "Bayon";
+}
