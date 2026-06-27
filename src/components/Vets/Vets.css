@@ -1,0 +1,41 @@
+.vets {
+  padding: 100px 0;
+}
+
+.vets h2,
+.vets h2 + p {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.vets h2 {
+  font-size: 70px;
+  font-weight: normal;
+  margin: 0 auto 12px auto;
+}
+
+.vets-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.vet-item div {
+  padding: 12px;
+}
+
+.vet-item img {
+  margin-bottom: 10px;
+}
+
+.vet-item h3 {
+  margin-bottom: 6px;
+}
+
+.vet-item p {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--heading-color);
+}
